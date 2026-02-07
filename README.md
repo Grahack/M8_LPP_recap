@@ -5,7 +5,7 @@
 The Launchpad Pro MK3 (LPP) is just an extension of your M8.
 It's just more buttons, more pads and LEDs: you can start an operation on the M8 and finish it on the LPP or conversely. For example Play on the LPP is Play on the M8.
 
-Update your LPP with Components, plug MIDI IO into each other (Out1 for the LPP).
+Update your LPP with Components, plug MIDI IO into each other (Out1 for the LPP), choose `LAUNCHPAD PRO` in your `CTRL SURFACE` MIDI Settings.
 
 ## Hardware description
 
