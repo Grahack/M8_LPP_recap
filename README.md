@@ -37,7 +37,7 @@ Setup  T1  T2  T3  T4  T5  T6  T7  T8
 * `Dupe` : Duplicate
 * `T1` to `T8` : Track buttons
 * `Edit` (Rec/Capture MIDI button) : Edit Mode
-* `SShot` (RecArm button) : Snapshot
+* `SShot` (Record Arm button) : Snapshot
 * `->` : Row buttons
 * `M`/`S` : Mute/Solo
 
