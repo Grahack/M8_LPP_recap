@@ -31,6 +31,7 @@ Setup  T1  T2  T3  T4  T5  T6  T7  T8
 ```
 
 * `Sess` : Session
+* `Seq` : Sequencer
 * `Nov` : Novation Logo (Live Mode indicator)
 * `Clr` : Clear
 * `Dupe` : Duplicate
