@@ -126,7 +126,7 @@ K K K K   K K K K
 
 * `N` : notes in the current phrase
 * `P` : phrases in the current chain
-* `K` : keyboard, scrollable with Up and Down
+* `K` : keyboard, scrollable with `Up` and `Down`
 
 ### Both Mode
 
