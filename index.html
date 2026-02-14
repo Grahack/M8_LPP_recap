@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>M8 LPP recap</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <style>
+    body {
+      background-color: #f6f8fa;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+    .markdown-body {
+      background: white;
+      padding: 40px;
+      max-width: 900px;
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div id="content" class="markdown-body"></div>
+
+  <script>
+    fetch("README.md")
+      .then(response => response.text())
+      .then(markdown => {
+        document.getElementById("content").innerHTML = marked.parse(markdown);
+      })
+      .catch(error => {
+        document.getElementById("content").innerHTML =
+          "<p>Error fetching README.md</p>";
+        console.error(error);
+      });
+  </script>
+
+</body>
+</html>
+
