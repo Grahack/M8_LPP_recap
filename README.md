@@ -47,7 +47,10 @@ Setup  T1  T2  T3  T4  T5  T6  T7  T8
 * `Shift` + `Sess` : Beat Repeat View
 * `Note` : Keyboard View
 * `Seq` : Sequencer View
-* `<`/`>`, except in Session View : Select current track of the keyboard pads, T1-T8 buttons momentarily show the current track
+* `<` or `>`, except in Session View : Select current track of the keyboard pads,
+  T1-T8 buttons momentarily show the current track
+  (Keyboard view can access any track, Seq view can only access non empty tracks)
+* `Edit`+`Play`, except in Session View : record the keyboard notes in the current track with the current instrument
 * `Play` : like Play on the M8
 * `Edit`, except in Keyboard View : Edit Mode
 * `Shift` + `SShot` : Store Snapshot
@@ -55,15 +58,18 @@ Setup  T1  T2  T3  T4  T5  T6  T7  T8
 * `M` : Mute tracks (use T1-T8), when blinking the mutes are momentary
 * `S` : Solo tracks (use T1-T8), when blinking the solos are momentary
 
-File Browser : `Up`/`Down` is Up/Down, `<`/`>` are first/last entry in the directory, `Shift` for Yes (no confirmation asked when loading songs!), `Play` to preview a song or an instrument.
+File Browser : `Up` or `Down` is Up or Down, `<` or `>` are first or last entry in the directory, `Shift` for Yes (no confirmation asked when loading songs!), `Play` to preview a song or an instrument.
 
 ## Session View
+
+M8 screen shows the Song view.
 
 ### Play Mode
 
 * Display
   * White pads : non empty chains
   * Dark pink pads : empty chains
+  * Bright pink : bookmarked chains
   * Green pads : chains currently playing
   * Blinking green pads : cued chains
   * Blinking blue pad : cursor (Edit mode only)
@@ -73,12 +79,12 @@ File Browser : `Up`/`Down` is Up/Down, `<`/`>` are first/last entry in the direc
   * `Up`/`Down` : scroll (LPP span is shown on the M8 with square brackets)
   * `Shift` + `Up`/`Down` : scroll by pages (eight rows)
   * `->` : play or cue rows
-  * `Shift` + `<` : Live Mode toggle
+  * `Shift` + `<` : Live Mode toggle (Novation logo is lit)
 
 ### Edit Mode
 
 * Edited chain makes same chains blink.
-* Double tap on a chain : Edit it in Sequencer View, M8 shows the edited phrase
+* Double tap on a chain : Edit it in Sequencer View, the M8 screen shows the edited phrase
 * Hold `Dupe` + pad, then tap an empty pad : copy-paste
 * Hold `Dupe` + pad, then double tap an empty pad or a non empty pad : deep clone
 * Hold `Dupe` + row, then tap a row : copy and insert
@@ -92,7 +98,7 @@ File Browser : `Up`/`Down` is Up/Down, `<`/`>` are first/last entry in the direc
 
 ## Note View
 
-Notes are sent to the current track.
+Notes are sent to the current track (the relevant Track button is lit).
 
 ### Layout
 
@@ -110,6 +116,8 @@ If the scale has 12 notes the note above a pad is 5 notes above (perfect fourth 
 
 ## Sequencer View
 
+M8 screen shows the Phrase view.
+
 ### Layout
 
 ```
@@ -126,7 +134,7 @@ K K K K   K K K K
 
 * `N` : notes in the current phrase
 * `P` : phrases in the current chain
-* `K` : keyboard, scrollable with `Up` and `Down`
+* `K` : keyboard, scrollable with `Up` and `Down` (see Keyboard view above)
 
 ### Both Mode
 
@@ -138,10 +146,15 @@ K K K K   K K K K
 
 ### Edit Mode
 
+* `Shift`+`<` or `>` : rotate notes in the phrase
+* tap an empty pad :
+  * create a note in the left corner
+  * create a phrase in the right corner (like `Edit`+`Edit`)
+
 Hold a note :
 
 * `->` represent the velocities
-* `Up`/`Down` : octave shift
+* `Up` or `Down` : octave shift
 * keyboard pad : set the note in the current note slot
 * hold `Shift` to browse the instrument pool, then release Shift to choose
 
