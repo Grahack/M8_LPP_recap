@@ -10,7 +10,9 @@ But there are also features that are only available with the LPP, like the Beat 
 
 ## Prerequisites
 
-Update your LPP with Components, plug MIDI IO into each other (Out1 for the LPP), choose `LAUNCHPAD PRO` in your `CTRL SURFACE` MIDI Settings.
+1. Update your LPP with Components.
+2. Connect the two devices (plug MIDI IO into each other, Out1 for the LPP, or use your prefered MIDI over USB router).
+3. Choose `LAUNCHPAD PRO` in `CTRL SURFACE` on your MIDI Settings.
 
 ## Hardware description
 
@@ -70,7 +72,7 @@ M8 screen shows the Song view.
   * White pads : non empty chains
   * Dark pink pads : empty chains
   * Bright pink : bookmarked chains
-  * Green pads : chains currently playing
+  * Green pads : chains currently playing (dimmer for empty chains)
   * Blinking green pads : cued chains
   * Blinking blue pad : cursor (Edit mode only)
 * Actions
