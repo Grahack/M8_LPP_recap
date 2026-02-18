@@ -17,19 +17,19 @@ But there are also features that are only available with the LPP, like the Beat 
 ## Hardware description
 
 ```
-Shift  <  >  Sess Note  -  -  Seq Prj   Nov
-      +------------------------------+
- Up   |                              | ->
-Down  |                              | ->
- Clr  |                              | ->
-Dupe  |                              | ->
-  -   |                              | ->
-  -   |                              | ->
-Play  |                              | ->
-Edit  |                              | ->
-      +------------------------------+
-Setup  T1  T2  T3  T4  T5  T6  T7  T8
-     SShot  M   S   -   -   -   -   -
+Shift < > Sess Note - - Seq Prj Nov
+      +-----------------------+
+ Up   |                       | ->
+Down  |                       | ->
+ Clr  |                       | ->
+Dupe  |                       | ->
+  -   |                       | ->
+  -   |                       | ->
+Play  |                       | ->
+Edit  |                       | ->
+      +-----------------------+
+Setup  T1 T2 T3 T4 T5 T6 T7 T8
+     SShot M  S  -  -  -  -  -
 ```
 
 * `Sess` : Session
