@@ -60,7 +60,7 @@ Setup  T1  T2  T3  T4  T5  T6  T7  T8
 * `M` : Mute tracks (use T1-T8), when blinking the mutes are momentary
 * `S` : Solo tracks (use T1-T8), when blinking the solos are momentary
 
-Please note that momentary Mutes or Solo can be inverted if you Mute/Solo a track staticly then push the Mute or Solo button for momentary Mutes/Solos.
+Please note that momentary Mutes or Solos can be inverted if you Mute/Solo a track statically then push the Mute or Solo button for momentary Mutes/Solos.
 
 File Browser : `Up` or `Down` is Up or Down, `<` or `>` are first or last entry in the directory, `Shift` for Yes (no confirmation asked when loading songs!), `Play` to preview a song or an instrument.
 
