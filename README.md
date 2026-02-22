@@ -21,7 +21,7 @@ Please be aware that:
 
 This cannot be changed.
 
-Mode details in the [Programmer’s reference manual](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/LPP3_prog_ref_guide_200415.pdf) of the LPP.
+Mode details in the [Programmer’s reference manual](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/LPP3_prog_ref_guide_200415.pdf) of the LPP, or at the bottom of this document.
 
 ## Hardware description
 
@@ -176,3 +176,24 @@ Hold a phrase:
 * `Play` : loop this phrase
 * `Up`/`Down` : set the transposition
 
+## Technical details
+
+### CCs sent by the LPP
+
+On channel one we have these CCs:
+
+```
+90 91 92 93 94 95 96 97 98
+80 81 82 83 84 85 86 87 88 89
+70 71 72 73 74 75 76 77 78 79
+60 61 62 63 64 65 66 67 68 69
+50 51 52 53 54 55 56 57 58 59
+40 41 42 43 44 45 46 47 48 49
+30 31 32 33 34 35 36 37 38 39
+20 21 22 23 24 25 26 27 28 29
+10 11 12 13 14 15 16 17 18 19
+  101 .2 .3 .4 .5 .6 .7 .8    . for 10
+    1  2  3  4  5  6  7  8
+```
+
+A press is value 127 and a release is 0. Then the M8 interprets them and sends back notes to the LPP to update its state.
