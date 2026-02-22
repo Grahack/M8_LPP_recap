@@ -11,8 +11,17 @@ But there are also features that are only available with the LPP, like the Beat 
 ## Prerequisites
 
 1. Update your LPP with Components.
-2. Connect the two devices (plug MIDI IO into each other, Out1 for the LPP, or use your prefered MIDI over USB router).
+2. Connect the two devices (plug MIDI IO into each other, Out1 for the LPP, or use your prefered MIDI over USB router and be sure to use the LPP port named "Launchpad Pro MK3 LPProMK3 MIDI", it should be the first one).
 3. Choose `LAUNCHPAD PRO` in `CTRL SURFACE` on your MIDI Settings.
+
+Please be aware that:
+
+- channel 1 is used from LPP to M8 to send CC messages (#1 to #98),
+- channels 1,2 and 3 are used from M8 to LPP to update the LEDs and pads (2 is for blinking, 3 for pulsing).
+
+This cannot be changed.
+
+Mode details in the [Programmer’s reference manual](https://fael-downloads-prod.focusrite.com/customer/prod/s3fs-public/downloads/LPP3_prog_ref_guide_200415.pdf) of the LPP.
 
 ## Hardware description
 
