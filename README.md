@@ -149,7 +149,7 @@ K K K K   K K K K
 * `P` : phrases in the current chain
 * `K` : keyboard, scrollable with `Up` and `Down` (see Keyboard view above)
 
-### Both Mode
+### Both Modes
 
 * `Prj` : load an instrument file (`.m8i`) for the keyboard (plays on the current track), see File Browser above.
 
