@@ -87,7 +87,7 @@ M8 screen shows the Song view (LPP span is shown on the M8 with square brackets)
   * Blinking green pads : cued chains
   * Blinking blue pad : cursor (Edit mode only)
 * Actions
-  * `Prj` : load a M8 Song (`.m8s`), see File Browser above, Prj again to cancel
+  * `Prj` : load a M8 Song (`.m8s`), see File Browser above, `Prj` again to cancel
   * `Play` : play current row
   * `Up`/`Down` : scroll (LPP span is shown on the M8 with square brackets)
   * `Shift` + `Up`/`Down` : scroll by pages (eight rows)
