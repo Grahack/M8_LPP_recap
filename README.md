@@ -60,7 +60,7 @@ Setup  T1 T2 T3 T4 T5 T6 T7 T8
 * `Seq` : Sequencer View
 * `<` or `>`, except in Session View : Select current track of the keyboard pads,
   T1-T8 buttons momentarily show the current track
-  (Keyboard view can access any track, Seq view can only access non empty tracks)
+  (Keyboard View can access any track, Seq view can only access non empty tracks)
 * `Edit`+`Play`, except in Session View : record the keyboard notes in the current track with the current instrument
 * `Play` : like Play on the M8
 * `Edit`, except in Keyboard View : Edit Mode
