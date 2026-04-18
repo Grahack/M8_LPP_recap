@@ -75,7 +75,7 @@ File Browser : `Up` or `Down` is Up or Down, `<` or `>` are first or last entry 
 
 ## Session View
 
-M8 screen shows the Song view.
+M8 screen shows the Song view (LPP span is shown on the M8 with square brackets).
 
 ### Play Mode
 
