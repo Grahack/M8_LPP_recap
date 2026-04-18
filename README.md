@@ -116,7 +116,7 @@ Notes are sent to the current track (the relevant Track button is lit).
 ### Layout
 
 * White pads : show the octaves of the first non empty note of the current scale
-* Green pads : note currently played (can be several for Hypersynth)
+* Green pads : notes currently played (can be several for Hypersynth)
 
 If the scale has 12 notes the note above a pad is 5 notes above (perfect fourth for the usual chromatic scale).
 
