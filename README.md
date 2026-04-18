@@ -169,7 +169,7 @@ Hold a note :
 * `->` represent the velocities
 * `Up` or `Down` : octave shift
 * keyboard pad : set the note in the current note slot
-* hold `Shift` to browse the instrument pool, then release Shift to choose
+* hold `Shift` to browse the instrument pool, then release `Shift` to choose
 
 Hold a phrase:
 
