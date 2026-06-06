@@ -162,7 +162,7 @@ K K K K   K K K K
 * `Shift`+`<` or `>` : rotate notes in the phrase
 * tap an empty pad :
   * in the left corner: create a note
-  * in the right corner: create a phrase (like `Edit`+`Edit`)
+  * in the right corner: create a phrase (like `Edit`+`Edit` on the M8)
 
 Hold a note :
 
