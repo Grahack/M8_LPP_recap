@@ -175,3 +175,15 @@ Hold a phrase:
 
 * `Play` : loop this phrase
 * `Up`/`Down` : set the transposition
+
+## Feature requests
+
+* Current cell could be shown on the LPP. You can see which one it is if you
+  press `Edit/Rec`.
+
+## References
+
+* [Meetup #29 on YT](https://www.youtube.com/watch?v=c3uDLJEvFjQ) (March 2025)
+* [6.0.0 overview on YT](https://www.youtube.com/watch?v=_n96IYdpi5Q) (May 2025)
+* I also noted 53'18" but don't remember why.
+* There may be things on Twich too, I noted 1h00'00" and 1h08'00".
