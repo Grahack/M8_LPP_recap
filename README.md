@@ -157,10 +157,12 @@ K K K K   K K K K
 ### Both Modes
 
 * `Prj` : load an instrument file (`.m8i`) for the keyboard (plays on the current track), see File Browser above.
+* `<` or `>` : change current track
+* `Up` or `Down` : scroll keyboard
 
 ### Play Mode
 
-`Clr` and `Dupe` work the habitual way.
+Nothing special.
 
 ### Edit Mode
 
@@ -180,6 +182,8 @@ Hold a phrase:
 
 * `Play` : loop this phrase
 * `Up`/`Down` : set the transposition
+
+Plus all the `Dupe` and `Clr` things.
 
 ## Feature requests
 
