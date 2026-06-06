@@ -69,9 +69,9 @@ Edit/Rec  |                       | ->
 * `M` : Mute tracks (use T1-T8), when blinking the mutes are momentary
 * `S` : Solo tracks (use T1-T8), when blinking the solos are momentary
 
-Please note that momentary Mutes or Solos can be inverted if you Mute/Solo a track statically then push the Mute or Solo button for momentary Mutes/Solos.
+Note that momentary Mutes or Solos can be inverted if you Mute/Solo a track statically then push the Mute or Solo button for momentary Mutes/Solos.
 
-File Browser : `Up` or `Down` is Up or Down, `<` or `>` are first or last entry in the directory, `Shift` for Yes (no confirmation asked when loading songs!), `Play` to preview a song or an instrument.
+File Browser : `Up` or `Down` is Up or Down, `<` or `>` are first or last entry in the directory, `Shift` for Yes (no confirmation asked when loading songs!), `Play` to preview a song or an instrument, `Prj` to cancel.
 
 ## Session View
 
@@ -111,7 +111,12 @@ M8 screen shows the Song view (LPP span is shown on the M8 with square brackets)
 
 ## Note View
 
-Notes are sent to the current track (the relevant Track button is lit).
+The M8 screen doesn't change, or if you were in Session View the brackets are
+not shown anymore.
+
+Notes are sent to the current track for which you can choose an instrument.
+The pad and the relevant Track button are lit when you hit a pad and if the
+instrument is an HyperSynth then all the relevant pads are lit.
 
 ### Layout
 
@@ -123,7 +128,7 @@ If the scale has 12 notes the note above a pad is 5 notes above (perfect fourth 
 ### Actions
 
 * `Prj` : load an instrument file (`.m8i`) for the keyboard (plays on the current track), see File Browser above.
-* `Up`/`Down` : scroll
+* `Up`/`Down` : scroll the keyboard
 * `Shift` + `Up`/`Down` : load an instrument from the pool
 * `Rec` + `Play` : record keyboard notes (MIDI notes???) in current phrase with the current instrument
 
